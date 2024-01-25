@@ -1,0 +1,19 @@
+{
+  "name": "javascript-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend" : "cd frontend && npm start",
+    "BACKEND" : "cd BACKEND && npm start",
+    "dev" : "concurrently \"npm run frontend\" \"npm run BACKEND\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "react-router-dom": "^6.21.1"
+  },
+  "description": ""
+}

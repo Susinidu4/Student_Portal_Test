@@ -1,0 +1,141 @@
+/*AddStudent*/
+.container {
+  background-color: #c8c8c8;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10% auto; 
+  width: 50%; 
+}
+h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btnAdd {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btnAdd:hover {
+  background-color: #0056b3;
+}
+
+
+/*AllStudents*/
+
+.containor2 {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.all {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.all p {
+  margin: 10px 0;
+}
+
+.all strong {
+  color: #007bff;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 15px 0;
+}
+
+.btnDel,
+.btnUpd {
+  padding: 8px 16px;
+  margin-right: 8px;
+  cursor: pointer;
+  background-color: #2b156f;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+}
+
+.btnUpd {
+  background-color: #262ec0;
+}
+
+.btnDel:hover{
+  background-color:#b2291c;
+}
+.btnUpd:hover {
+  background-color:#1ea547;
+}
+
+/*UpdateStudent*/
+.containor3 {
+  background-color: #c8c8c8;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10% auto; 
+  width: 50%; 
+}
+
+.Up {
+  color: #333;
+}
+
+.l1, .l2, .l3 {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.i1, .i2, .i3 {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+
+.upbt{
+  padding: 8px 16px;
+  margin-right: 8px;
+  cursor: pointer;
+  background-color: #2961db;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+}
+
+.upbt:hover{
+  background-color:#ad13be;
+}
+
+
